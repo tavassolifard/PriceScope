@@ -33,44 +33,51 @@ The application collects product prices, maintains historical price records, gen
 ## Project Structure
 
 ```text
+
 PriceScope/
-│
-├── main.py
-├── run_config_builder.py
-├── store_manager.py
-├── ai_matcher.py
-├── database.py
-├── report_manager.py
-├── utils.py
-├── requirements.txt
-├── .env.example
-├── .gitignore
 │
 ├── assets/
 │   ├── Vazirmatn-Regular.ttf
 │   └── cb_screenshot.png
 │
 ├── config_builder/
+│   ├── assets/
+│   │   └── icons/
+│   │       ├── check.svg
+│   │       ├── digikala.png
+│   │       ├── down_arrow.png
+│   │       ├── icon.png
+│   │       ├── technolife.png
+│   │       ├── torob.png
+│   │       ├── trash.svg
+│   │       └── up_arrow.png
+│   │
+│   ├── __init__.py
 │   ├── config_manager.py
 │   ├── main_window.py
 │   ├── product_card.py
 │   ├── styles.py
-│   ├── ui.py
-│   ├── __init__.py
-│   │
-│   └── assets/
-│       └── icons/
-│           ├── check.svg
-│           ├── digikala.png
-│           ├── technolife.png
-│           ├── torob.png
-│           └── trash.svg
+│   └── ui.py
 │
-└── stores/
-    ├── digikala.py
-    ├── techno_life.py
-    ├── torob.py
-    └── __init__.py
+├── stores/
+│   ├── __init__.py
+│   ├── digikala.py
+│   ├── techno_life.py
+│   └── torob.py
+│
+├── .env.example
+├── .gitignore
+├── README.md
+├── README_FA.md
+├── ai_matcher.py
+├── database.py
+├── main.py
+├── report_manager.py
+├── requirements.txt
+├── run_config_builder.py
+├── store_manager.py
+└── utils.py
+
 ```
 
 ## Requirements
