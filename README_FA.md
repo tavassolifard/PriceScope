@@ -1,8 +1,10 @@
+# PriceScope
+
+<p align="left">
+<a href="README.md">English</a> | <a href="README_FA.md">فارسی</a>
+</p>
 
 <div dir="rtl" align="right">
-
-# PriceScope
-[English](README.md) | [فارسی](README_FA.md)
 
 ### سامانه پایش قیمت فروشگاه‌های اینترنتی ایران
 
@@ -14,7 +16,13 @@ PriceScope یک برنامه مبتنی بر پایتون برای پایش قی
 
 ### Config Builder
 
-![رابط کاربری PriceScope Config Builder](assets/cb_screenshot.png)
+</div>
+
+<p align="center">
+<img src="assets/cb_screenshot.png" alt="رابط کاربری PriceScope Config Builder">
+</p>
+
+<div dir="rtl" align="right">
 
 ## امکانات
 
@@ -32,7 +40,7 @@ PriceScope یک برنامه مبتنی بر پایتون برای پایش قی
 
 - Python 3.13 یا بالاتر
 - اتصال به اینترنت
-- کلید API سرویس Gemini برای قابلیت جست‌وجوی هوشمند آدرس محصولات
+- کلید API سرویس Gemini برای قابلیت جست‌وجوی هوشمند آدرس محصولات (اختیاری)
 
 ## نصب و راه‌اندازی
 
@@ -47,7 +55,7 @@ cd PriceScope
 
 <div dir="rtl" align="right">
 
-یک محیط مجازی ایجاد و فعال کنید:
+یک محیط مجازی ایجاد کنید:
 
 </div>
 
@@ -57,12 +65,12 @@ python -m venv venv
 
 <div dir="rtl" align="right">
 
-**در ویندوز:**
+**در ویندوز (PowerShell):**
 
 </div>
 
-```bash
-venv\Scripts\activate
+```powershell
+.\venv\Scripts\Activate.ps1
 ```
 
 <div dir="rtl" align="right">
@@ -102,7 +110,6 @@ python -m playwright install chromium
 </div>
 
 ```text
-
 PriceScope/
 │
 ├── assets/
@@ -146,16 +153,15 @@ PriceScope/
 ├── run_config_builder.py
 ├── store_manager.py
 └── utils.py
-
 ```
 
 <div dir="rtl" align="right">
 
 ## تنظیمات
 
-فایل `.env.example` را به `.env` تغییر نام دهید و مقادیر موردنیاز را در آن وارد کنید.
+از فایل `.env.example` یک کپی با نام `.env` در پوشه اصلی پروژه ایجاد کنید و مقادیر موردنیاز را در آن وارد کنید.
 
-برای استفاده از قابلیت جست‌وجوی هوشمند، کلید API مربوط به Gemini را تنظیم کنید.
+برای استفاده از قابلیت جست‌وجوی هوشمند، کلید API مربوط به Gemini را در فایل `.env` تنظیم کنید.
 
 تنظیمات محصولات و آدرس فروشگاه‌ها از طریق Config Builder مدیریت می‌شوند. این ابزار فایل `config.json` را در مسیر اصلی پروژه ایجاد می‌کند.
 
@@ -187,7 +193,7 @@ python main.py
 
 ## گزارش‌ها
 
-گزارش‌های PDF در پوشه `reports` ذخیره می‌شوند.
+گزارش‌های PDF در پوشه `reports/` ذخیره می‌شوند.
 
 ارسال ایمیلی گزارش‌ها اختیاری است و در صورت پیکربندی نشدن تنظیمات SMTP، برنامه از این مرحله عبور می‌کند.
 
@@ -214,6 +220,10 @@ PriceScope به‌صورت یک برنامه مستقل اجرا می‌شود �
 
 ## مجوز
 
-این پروژه برای اهداف آموزشی و نمونه‌کار توسعه داده شده است.
+این پروژه برای اهداف آموزشی و به‌عنوان نمونه‌کار توسعه داده شده است.
 
 </div>
+
+---
+
+<p align="center">Developed as a Python portfolio project.</p>
