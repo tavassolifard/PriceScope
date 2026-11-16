@@ -91,7 +91,7 @@ PriceScope/
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/tavassolifard/PriceScope.git
 cd PriceScope
 ```
 
@@ -131,6 +131,7 @@ python -m playwright install chromium
 
 Create a `.env` file in the project's root directory by copying `.env.example`.
 
+Example .env file contents:
 ```env
 GEMINI_API_KEY=
 
@@ -226,7 +227,7 @@ If email settings are missing, the application still generates and saves the PDF
 
 The application is designed to run as a standalone Python program without requiring a continuously running web server.
 
-For scheduled monitoring, it can be integrated with external scheduling tools such as:
+For scheduled monitoring, Potential scheduling options include:
 
 - Windows Task Scheduler
 - Cron

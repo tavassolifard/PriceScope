@@ -41,7 +41,7 @@ PriceScope یک برنامه مبتنی بر پایتون برای پایش قی
 </div>
 
 ```bash
-git clone https://github.com/USERNAME/PriceScope.git
+git clone https://github.com/tavassolifard/PriceScope.git
 cd PriceScope
 ```
 
